@@ -9,7 +9,7 @@ public class RestTemplateConfig {
 
     // RestTemplate bean to make external API calls
     @Bean
-    public RestTemplate restTemplate() {
+    public RestTemplate restTemplate()  {
         return new RestTemplate();
     }
 }
